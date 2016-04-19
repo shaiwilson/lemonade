@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+
+  "name": "Spoils",
+  "description": "This extension verifies that a specific page does not contain spoilers",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html",
+    "default_title": "Spoilers?"
+  },
+  "permissions": [
+    "activeTab",
+  ]
+}
