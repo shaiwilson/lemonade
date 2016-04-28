@@ -21,13 +21,13 @@ function handleText(textNode)
 {
     var text = textNode.nodeValue;
 
-    text = text.replace(/hold up/gi, 'they dont love you like I love you');
-    text = text.replace(/formation/gi, 'HOLD UP');
-    text = text.replace(/world tour/gi, 'HOLD UP');
-    text = text.replace(/\blemonade\b/gi, 'HOLD UP');
-    text = text.replace(/Formation World Tour/gi, 'HOLD UP HOLD UP');
-    text = text.replace(/formation world tour/gi, 'HOLD UP');
-    text = text.replace(/Beyoncé formation tour/gi, 'HOLD UP');
+    text = text.replace(/hold up/gi, 'they dont love you like I love you. ');
+    text = text.replace(/cause you/gi, 'you, you, you and me could move a mountain. ');
+    text = text.replace(/sorry/gi, ', I aint sorry. ');
+    text = text.replace(/\bfinal warning\b/gi, 'you know I give you life. If you try this shit again. You gon lose your wife. ');
+    text = text.replace(/Don't Hurt Yourself/gi, 'When you hurt me, you hurt yourself. ');
+    text = text.replace(/lessons/gi, 'my daddy said shoot. ');
+    text = text.replace(/formation/gi, 'always stay gracious, best revenge is your paper. ');
 
     textNode.nodeValue = text;
 }
