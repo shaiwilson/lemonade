@@ -28,6 +28,7 @@ function handleText(textNode)
     text = text.replace(/Don't Hurt Yourself/gi, 'When you hurt me, you hurt yourself. ');
     text = text.replace(/lessons/gi, 'my daddy said shoot. ');
     text = text.replace(/formation/gi, 'always stay gracious, best revenge is your paper. ');
+    text = text.replace(/all night/gi, 'true love never has to hide. ');
 
     textNode.nodeValue = text;
 }
