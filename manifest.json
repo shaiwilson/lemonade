@@ -2,14 +2,27 @@
   "manifest_version": 2,
 
   "name": "Spoils",
-  "description": "This extension verifies that a specific page does not contain spoilers",
-  "version": "1.0",
+  "description": "This extension verifies that a specific page does not contain spoilers related to Beyonce's Formation tour",
+  "version": ".1",
+  "content_scripts": [
+        {
+            "matches": [
+                "http://*/*",
+                "https://*/*"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "run_at": "document_end"
+        }
+    ],
 
   "browser_action": {
     "default_icon": "icon.png",
     "default_popup": "popup.html",
-    "default_title": "Spoilers?"
+    "default_title": "Lemonade?"
   },
+
   "permissions": [
     "activeTab",
   ]
